@@ -3,10 +3,6 @@ import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import 'panel_screen.dart';
 
-/// S1 · Inicio de sesión.
-///
-/// Sólo interfaz: no valida número de empleado ni PIN. El único
-/// comportamiento es que "INGRESAR" navega a [PanelScreen].
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
